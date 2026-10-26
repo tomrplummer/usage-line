@@ -1,0 +1,7 @@
+{
+  "name": "usage-line",
+  "version": "0.2.0",
+  "description": "Shows plan usage percentages (5-hour and weekly) in the band above the prompt.",
+  "author": { "name": "tomrplummer" },
+  "types": "./types/index.d.ts"
+}

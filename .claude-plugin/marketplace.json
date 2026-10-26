@@ -1,0 +1,13 @@
+{
+  "name": "usage-line",
+  "description": "Plan usage percentages above the Claude Code prompt.",
+  "owner": {
+    "name": "tomrplummer"
+  },
+  "plugins": [
+    {
+      "name": "usage-line",
+      "source": "./"
+    }
+  ]
+}

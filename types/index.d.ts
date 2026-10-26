@@ -1,0 +1,10 @@
+/** One rate-limit window, as `$.session.usage()` reports it. */
+export type Limit = { kind: string; percentUsed: number; resetsAt?: string }
+
+declare module 'claude-code' {
+  interface PluginState {
+    'usage-line': {
+      limits: Limit[]
+    }
+  }
+}
